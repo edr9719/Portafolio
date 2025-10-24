@@ -1,0 +1,110 @@
+.btn-outline-light[href$='CV.pdf'] {
+  color: #222 !important;
+  border-radius: 20px;
+  background: #fff !important;
+  border: 1px solid #e0e0e0;
+}
+.tech-label {
+  display: block;
+  font-size: 0.75rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.tech-icons {
+  gap: 2rem !important;
+}
+
+.tech-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e0e0e0;
+  padding: 6px;
+  overflow: hidden;
+}
+
+.tech-icon svg,
+.tech-icon i {
+  display: block;
+  margin: 0 auto;
+  max-width: 32px;
+  max-height: 32px;
+}
+body {
+  background-color: #181a1b;
+  color: #eaeaea;
+}
+
+header {
+  position: relative;
+  background: #23272b;
+  background-image: url('Img/background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+
+/* ...existing code... */
+/* Eliminado bloque sobrante y reglas que afectan la imagen del header */
+
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  background: #23272b;
+  color: #eaeaea;
+}
+
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+footer {
+  background: #343a40;
+}
+
+.badge {
+  margin-top: 0; /* Set to 0 to avoid extra space */
+  margin-bottom: 0.5rem; /* Added margin-bottom for spacing */
+  padding: 0.7em 1.2em;
+}
+
+.btn-outline-light {
+  border-radius: 20px;
+  background: #fff !important;
+  border: 1px solid #e0e0e0;
+  transition: box-shadow 0.2s;
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:focus {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 768px) {
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+}
