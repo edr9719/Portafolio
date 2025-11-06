@@ -85,9 +85,6 @@ header .container {
   border: 4px solid #fff;
 }
 
-/* ...existing code... */
-/* Eliminado bloque sobrante y reglas que afectan la imagen del header */
-
 .card {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
   background: #23272b;
