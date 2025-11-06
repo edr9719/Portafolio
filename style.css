@@ -49,7 +49,7 @@ section {
 }
 
 /* Language toggle button */
-#lang-toggle {
+#lang-toggle.btn-outline-light {
   border-radius: 20px;
   transition: all 0.3s ease;
   color: #fff !important;
@@ -57,9 +57,10 @@ section {
   background-color: transparent !important;
 }
 
-#lang-toggle:hover {
+#lang-toggle.btn-outline-light:hover,
+#lang-toggle.btn-outline-light:focus {
   transform: scale(1.05);
-  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2) !important;
   background-color: rgba(255, 255, 255, 0.1) !important;
   border-color: rgba(255, 255, 255, 0.8) !important;
 }
