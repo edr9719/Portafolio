@@ -15,6 +15,56 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Edgar García</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#sobre-mi"
+                data-lang-es="Sobre mí"
+                data-lang-en="About"
+                >Sobre mí</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tech-stack">Tech Stack</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#proyectos"
+                data-lang-es="Proyectos"
+                data-lang-en="Projects"
+                >Proyectos</a
+              >
+            </li>
+            <li class="nav-item">
+              <button
+                id="lang-toggle"
+                class="btn btn-outline-light btn-sm ms-2"
+              >
+                <i class="bi bi-translate"></i> EN
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!--Header Section-->
     <header class="bg-dark text-white text-center py-4">
       <div class="container">
@@ -38,7 +88,12 @@
           >
             <i class="bi bi-linkedin" style="color: #0a66c2"></i>
           </a>
-          <a href="CV.pdf" download class="btn btn-outline-light btn-sm"
+          <a
+            href="CV.pdf"
+            download
+            class="btn btn-outline-light btn-sm"
+            data-lang-es="Descargar CV"
+            data-lang-en="Download CV"
             >Descargar CV</a
           >
           <button
@@ -53,11 +108,20 @@
       </div>
     </header>
     <!--Biography Section-->
-    <section class="container py-5">
-      <h2 class="mb-4 text-center">Sobre mí</h2>
+    <section id="sobre-mi" class="container py-5">
+      <h2
+        class="mb-4 text-center"
+        data-lang-es="Sobre mí"
+        data-lang-en="About Me"
+      >
+        Sobre mí
+      </h2>
       <div class="row justify-content-center">
         <div class="col-md-8">
-          <p>
+          <p
+            data-lang-es="Soy un desarrollador apasionado por la tecnología y la innovación, con experiencia en desarrollo web y aplicaciones. Me especializo en React, JavaScript, HTML, CSS y Java. Me adapto rápidamente a nuevos retos y disfruto trabajar en equipo para crear soluciones eficientes y escalables. Además, tengo dominio de inglés y español."
+            data-lang-en="I am a developer passionate about technology and innovation, with experience in web and application development. I specialize in React, JavaScript, HTML, CSS, and Java. I quickly adapt to new challenges and enjoy working in teams to create efficient and scalable solutions. Additionally, I am fluent in both English and Spanish."
+          >
             Soy un desarrollador apasionado por la tecnología y la innovación,
             con experiencia en desarrollo web y aplicaciones. Me especializo en
             React, JavaScript, HTML, CSS y Java. Me adapto rápidamente a nuevos
@@ -68,7 +132,7 @@
       </div>
     </section>
     <!--Tech Stack Section-->
-    <section class="container py-5">
+    <section id="tech-stack" class="container py-5">
       <h2 class="mb-4 text-center">Tech Stack</h2>
       <div class="d-flex justify-content-center gap-4 flex-wrap tech-icons">
         <div class="d-flex flex-column align-items-center">
@@ -176,8 +240,14 @@
       </div>
     </section>
     <!--Projects Section-->
-    <section class="container py-5">
-      <h2 class="mb-4 text-center">Proyectos</h2>
+    <section id="proyectos" class="container py-5">
+      <h2
+        class="mb-4 text-center"
+        data-lang-es="Proyectos"
+        data-lang-en="Projects"
+      >
+        Proyectos
+      </h2>
       <div class="row justify-content-center">
         <!-- ***********  React Crypto Dash*********** -->
         <div class="col-md-5 mb-4">
@@ -189,7 +259,11 @@
             />
             <div class="card-body">
               <h5 class="card-title">Crypto Coins Dashboard</h5>
-              <p class="card-text">
+              <p
+                class="card-text"
+                data-lang-es="Dashboard interactivo para visualizar precios, gráficos y detalles de criptomonedas en tiempo real usando la API de CoinGecko. Incluye navegación multipágina con React Router, búsqueda dinámica, filtrado y visualización responsiva."
+                data-lang-en="Interactive dashboard to visualize real-time cryptocurrency prices, charts, and details using the CoinGecko API. Features multi-page navigation with React Router, dynamic search, filtering, and responsive display."
+              >
                 Dashboard interactivo para visualizar precios, gráficos y
                 detalles de criptomonedas en tiempo real usando la API de
                 CoinGecko. Incluye navegación multipágina con React Router,
@@ -264,6 +338,8 @@
                 href="https://crypto-dash-three-chi.vercel.app/"
                 target="_blank"
                 class="btn btn-primary"
+                data-lang-es="Ver Proyecto"
+                data-lang-en="View Project"
                 >Ver Proyecto</a
               >
             </div>
@@ -279,7 +355,11 @@
             />
             <div class="card-body">
               <h5 class="card-title">Peredvízhniki Blog</h5>
-              <p class="card-text">
+              <p
+                class="card-text"
+                data-lang-es="Blog Personal sobre la sociedad cooperativa de pintores rusos Peredvízhniki."
+                data-lang-en="Personal blog about the Russian painters cooperative society Peredvízhniki."
+              >
                 Blog Personal sobre la sociedad cooperativa de pintores rusos
                 Peredvízhniki.
                 <span class="d-flex gap-2 mt-2 align-items-center">
@@ -342,6 +422,8 @@
                 href="https://edr9719.github.io/Peredv-zhniki-Blog/"
                 target="_blank"
                 class="btn btn-primary"
+                data-lang-es="Ver Proyecto"
+                data-lang-en="View Project"
                 >Ver Proyecto</a
               >
             </div>
@@ -357,7 +439,11 @@
             />
             <div class="card-body">
               <h5 class="card-title">Notes App</h5>
-              <p class="card-text">
+              <p
+                class="card-text"
+                data-lang-es="Aplicación para tomar notas de manera sencilla y eficiente, con interfaz intuitiva y funcionalidades clave para la organización personal."
+                data-lang-en="Application for taking notes in a simple and efficient way, with an intuitive interface and key functionalities for personal organization."
+              >
                 Aplicación para tomar notas de manera sencilla y eficiente, con
                 interfaz intuitiva y funcionalidades clave para la organización
                 personal.
@@ -431,6 +517,8 @@
                 href="https://edr9719.github.io/notes-app/"
                 target="_blank"
                 class="btn btn-primary"
+                data-lang-es="Ver Proyecto"
+                data-lang-en="View Project"
                 >Ver Proyecto</a
               >
             </div>
@@ -442,6 +530,8 @@
     <footer class="bg-dark text-white text-center py-3">
       <div class="container">
         <small
+          data-lang-es="&copy; 2025 Edgar García Aguilar. Todos los derechos reservados."
+          data-lang-en="&copy; 2025 Edgar García Aguilar. All rights reserved."
           >&copy; 2025 Edgar García Aguilar. Todos los derechos
           reservados.</small
         >
@@ -455,7 +545,8 @@
         .getElementById('copy-email-btn')
         .addEventListener('click', function () {
           navigator.clipboard.writeText('ea691974@gmail.com');
-          this.textContent = '¡Copiado!';
+          const currentLang = localStorage.getItem('language') || 'es';
+          this.textContent = currentLang === 'es' ? '¡Copiado!' : 'Copied!';
           setTimeout(() => {
             this.textContent = 'ea691974@gmail.com';
           }, 1500);
