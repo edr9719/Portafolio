@@ -227,23 +227,34 @@
           <span class="tech-label">CSS</span>
         </div>
         <div class="d-flex flex-column align-items-center">
-          <span class="tech-icon" title="Java">
+          <span class="tech-icon" title="Python">
             <img
-              src="Img/java.png"
-              alt="Java Logo"
+              src="Img/icons/python.svg"
+              alt="Python Logo"
+              style="width: 40px; height: 40px; object-fit: contain"
+            />
+          </span>
+          <span class="tech-label">Python</span>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <span class="tech-icon" title="FastAPI">
+            <img
+              src="Img/icons/FastAPI_logo.svg"
+              alt="FastAPI Logo"
+              style="width: 50px; height: 50px; object-fit: contain"
+            />
+          </span>
+          <span class="tech-label">FastAPI</span>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <span class="tech-icon" title="MySQL">
+            <img
+              src="Img/icons/sql.svg"
+              alt="MySQL Logo"
               style="width: 32px; height: 32px; object-fit: contain"
             />
           </span>
-          <span class="tech-label">Java</span>
-        </div>
-        <div class="d-flex flex-column align-items-center">
-          <span class="tech-icon" title="Bootstrap">
-            <i
-              class="bi bi-bootstrap-fill"
-              style="color: #7952b3; font-size: 2rem; margin-bottom: 10px"
-            ></i>
-          </span>
-          <span class="tech-label">Bootstrap</span>
+          <span class="tech-label">SQL</span>
         </div>
         <div class="d-flex flex-column align-items-center">
           <span class="tech-icon" title="Tailwind CSS">
@@ -310,7 +321,7 @@
               <a
                 href="https://crypto-dash-three-chi.vercel.app/"
                 target="_blank"
-                class="btn btn-primary"
+                class="modern-btn modern-btn-primary"
                 data-lang-es="Ver Proyecto"
                 data-lang-en="View Project"
                 >Ver Proyecto</a
@@ -318,7 +329,7 @@
               <a
                 href="https://github.com/edr9719/Crypto-Dash"
                 target="_blank"
-                class="btn btn-danger"
+                class="modern-btn modern-btn-secondary"
                 data-lang-es="Ver Repo"
                 data-lang-en="View Repo"
                 >Ver Repo</a
@@ -370,7 +381,7 @@
               <a
                 href="https://edr9719.github.io/shopping-cart-ui/"
                 target="_blank"
-                class="btn btn-primary"
+                class="modern-btn modern-btn-primary"
                 data-lang-es="Ver Proyecto"
                 data-lang-en="View Project"
                 >Ver Proyecto</a
@@ -378,7 +389,7 @@
               <a
                 href="https://github.com/edr9719/shopping-cart-ui"
                 target="_blank"
-                class="btn btn-danger"
+                class="modern-btn modern-btn-secondary"
                 data-lang-es="Ver Repo"
                 data-lang-en="View Repo"
                 >Ver Repo</a
@@ -431,7 +442,7 @@
               <a
                 href="https://edr9719.github.io/Peredv-zhniki-Blog/"
                 target="_blank"
-                class="btn btn-primary"
+                class="modern-btn modern-btn-primary"
                 data-lang-es="Ver Proyecto"
                 data-lang-en="View Project"
                 >Ver Proyecto</a
@@ -439,7 +450,7 @@
               <a
                 href="https://github.com/edr9719/Peredv-zhniki-Blog"
                 target="_blank"
-                class="btn btn-danger"
+                class="modern-btn modern-btn-secondary"
                 data-lang-es="Ver Repo"
                 data-lang-en="View Repo"
                 >Ver Repo</a
@@ -493,7 +504,7 @@
               <a
                 href="https://edr9719.github.io/notes-app/"
                 target="_blank"
-                class="btn btn-primary"
+                class="modern-btn modern-btn-primary"
                 data-lang-es="Ver Proyecto"
                 data-lang-en="View Project"
                 >Ver Proyecto</a
@@ -501,7 +512,7 @@
               <a
                 href="https://github.com/edr9719/notes-app"
                 target="_blank"
-                class="btn btn-danger"
+                class="modern-btn modern-btn-secondary"
                 data-lang-es="Ver Repo"
                 data-lang-en="View Repo"
                 >Ver Repo</a
@@ -513,189 +524,202 @@
     </section>
     <!--Frontend Mentor Challenges Section-->
     <section id="frontend-mentor" class="container py-5">
-      <h2
-        class="mb-4 text-center"
-        data-lang-es="Desafíos Frontend Mentor"
-        data-lang-en="Frontend Mentor Challenges"
-      >
-        Desafíos Frontend Mentor
+      <h2 class="mb-4 text-center">
+        <button
+          class="btn text-decoration-none w-100 fw-bold fs-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#frontendMentorCollapse"
+          aria-expanded="false"
+          aria-controls="frontendMentorCollapse"
+          style="color: #9d9d9d; background: none; border: none; padding: 0"
+        >
+          <span
+            data-lang-es="Desafíos Frontend Mentor"
+            data-lang-en="Frontend Mentor Challenges"
+            >Desafíos Frontend Mentor</span
+          >
+          <i class="bi bi-chevron-down ms-2"></i>
+        </button>
       </h2>
-      <div class="row justify-content-center">
-        <!--Recipe Page Challenge-->
-        <div class="col-md-5 mb-4">
-          <div class="card h-100">
-            <img
-              src="Img/recipe-page.jpg"
-              class="card-img-top project-img"
-              alt="Recipe Page Challenge"
-            />
-            <div class="card-body">
-              <h5
-                class="card-title"
-                data-lang-es="Página de Receta"
-                data-lang-en="Recipe Page"
-              >
-                Página de Receta
-              </h5>
-              <p
-                class="card-text"
-                data-lang-es="Página de receta responsiva que muestra ingredientes, instrucciones y información nutricional con un diseño limpio y profesional."
-                data-lang-en="Responsive recipe page displaying ingredients, instructions, and nutritional information with a clean and professional design."
-              >
-                Página de receta responsiva que muestra ingredientes,
-                instrucciones y información nutricional con un diseño limpio y
-                profesional.
-              </p>
-              <a
-                href="https://edr9719.github.io/Recipe-Frontend-Mentor/"
-                target="_blank"
-                class="btn btn-primary"
-                data-lang-es="Ver Proyecto"
-                data-lang-en="View Project"
-                >Ver Proyecto</a
-              >
-              <a
-                href="https://github.com/edr9719/Recipe-Frontend-Mentor"
-                target="_blank"
-                class="btn btn-danger"
-                data-lang-es="Ver Repo"
-                data-lang-en="View Repo"
-                >Ver Repo</a
-              >
+      <div class="collapse" id="frontendMentorCollapse">
+        <div class="row justify-content-center">
+          <!--Recipe Page Challenge-->
+          <div class="col-md-5 mb-4">
+            <div class="card h-100">
+              <img
+                src="Img/recipe-page.jpg"
+                class="card-img-top project-img"
+                alt="Recipe Page Challenge"
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  data-lang-es="Página de Receta"
+                  data-lang-en="Recipe Page"
+                >
+                  Página de Receta
+                </h5>
+                <p
+                  class="card-text"
+                  data-lang-es="Página de receta responsiva que muestra ingredientes, instrucciones y información nutricional con un diseño limpio y profesional."
+                  data-lang-en="Responsive recipe page displaying ingredients, instructions, and nutritional information with a clean and professional design."
+                >
+                  Página de receta responsiva que muestra ingredientes,
+                  instrucciones y información nutricional con un diseño limpio y
+                  profesional.
+                </p>
+                <a
+                  href="https://edr9719.github.io/Recipe-Frontend-Mentor/"
+                  target="_blank"
+                  class="modern-btn modern-btn-primary"
+                  data-lang-es="Ver Proyecto"
+                  data-lang-en="View Project"
+                  >Ver Proyecto</a
+                >
+                <a
+                  href="https://github.com/edr9719/Recipe-Frontend-Mentor"
+                  target="_blank"
+                  class="modern-btn modern-btn-secondary"
+                  data-lang-es="Ver Repo"
+                  data-lang-en="View Repo"
+                  >Ver Repo</a
+                >
+              </div>
             </div>
           </div>
-        </div>
 
-        <!--Testimonials Grid Challenge-->
-        <div class="col-md-5 mb-4">
-          <div class="card h-100">
-            <img
-              src="Img/testimonial.jpg"
-              class="card-img-top project-img"
-              alt="Testimonials Grid Challenge"
-            />
-            <div class="card-body">
-              <h5
-                class="card-title"
-                data-lang-es="Sección de Testimonios"
-                data-lang-en="Testimonials Grid Section"
-              >
-                Sección de Testimonios
-              </h5>
-              <p
-                class="card-text"
-                data-lang-es="Grid de testimonios con diseño responsivo que se adapta a diferentes dispositivos. Muestra opiniones de clientes con estilos visuales diferenciados."
-                data-lang-en="Responsive testimonials grid that adapts to different devices. Displays customer opinions with differentiated visual styles."
-              >
-                Grid de testimonios con diseño responsivo que se adapta a
-                diferentes dispositivos. Muestra opiniones de clientes con
-                estilos visuales diferenciados.
-              </p>
-              <a
-                href="https://edr9719.github.io/testimonial-grid-frontend-mentor-challenge/"
-                target="_blank"
-                class="btn btn-primary"
-                data-lang-es="Ver Proyecto"
-                data-lang-en="View Project"
-                >Ver Proyecto</a
-              >
-              <a
-                href="https://github.com/edr9719/testimonial-grid-frontend-mentor-challenge"
-                target="_blank"
-                class="btn btn-danger"
-                data-lang-es="Ver Repo"
-                data-lang-en="View Repo"
-                >Ver Repo</a
-              >
+          <!--Testimonials Grid Challenge-->
+          <div class="col-md-5 mb-4">
+            <div class="card h-100">
+              <img
+                src="Img/testimonial.jpg"
+                class="card-img-top project-img"
+                alt="Testimonials Grid Challenge"
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  data-lang-es="Sección de Testimonios"
+                  data-lang-en="Testimonials Grid Section"
+                >
+                  Sección de Testimonios
+                </h5>
+                <p
+                  class="card-text"
+                  data-lang-es="Grid de testimonios con diseño responsivo que se adapta a diferentes dispositivos. Muestra opiniones de clientes con estilos visuales diferenciados."
+                  data-lang-en="Responsive testimonials grid that adapts to different devices. Displays customer opinions with differentiated visual styles."
+                >
+                  Grid de testimonios con diseño responsivo que se adapta a
+                  diferentes dispositivos. Muestra opiniones de clientes con
+                  estilos visuales diferenciados.
+                </p>
+                <a
+                  href="https://edr9719.github.io/testimonial-grid-frontend-mentor-challenge/"
+                  target="_blank"
+                  class="modern-btn modern-btn-primary"
+                  data-lang-es="Ver Proyecto"
+                  data-lang-en="View Project"
+                  >Ver Proyecto</a
+                >
+                <a
+                  href="https://github.com/edr9719/testimonial-grid-frontend-mentor-challenge"
+                  target="_blank"
+                  class="modern-btn modern-btn-secondary"
+                  data-lang-es="Ver Repo"
+                  data-lang-en="View Repo"
+                  >Ver Repo</a
+                >
+              </div>
             </div>
           </div>
-        </div>
 
-        <!--Single Price Grid Challenge-->
-        <div class="col-md-5 mb-4">
-          <div class="card h-100">
-            <img
-              src="Img/price-grid.jpg"
-              class="card-img-top project-img"
-              alt="Price Grid Challenge"
-            />
-            <div class="card-body">
-              <h5
-                class="card-title"
-                data-lang-es="Componente Grid de Precios"
-                data-lang-en="Single Price Grid Component"
-              >
-                Componente Grid de Precios
-              </h5>
-              <p
-                class="card-text"
-                data-lang-es="Componente de precios con layout grid responsivo. Presenta diferentes planes de suscripción de forma clara y atractiva."
-                data-lang-en="Pricing component with responsive grid layout. Presents different subscription plans clearly and attractively."
-              >
-                Componente de precios con layout grid responsivo. Presenta
-                diferentes planes de suscripción de forma clara y atractiva.
-              </p>
-              <a
-                href="https://edr9719.github.io/Frontend-Mentor-Single-Price-Grid-Component/"
-                target="_blank"
-                class="btn btn-primary"
-                data-lang-es="Ver Proyecto"
-                data-lang-en="View Project"
-                >Ver Proyecto</a
-              >
-              <a
-                href="https://github.com/edr9719/Frontend-Mentor-Single-Price-Grid-Component"
-                target="_blank"
-                class="btn btn-danger"
-                data-lang-es="Ver Repo"
-                data-lang-en="View Repo"
-                >Ver Repo</a
-              >
+          <!--Single Price Grid Challenge-->
+          <div class="col-md-5 mb-4">
+            <div class="card h-100">
+              <img
+                src="Img/price-grid.jpg"
+                class="card-img-top project-img"
+                alt="Price Grid Challenge"
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  data-lang-es="Componente Grid de Precios"
+                  data-lang-en="Single Price Grid Component"
+                >
+                  Componente Grid de Precios
+                </h5>
+                <p
+                  class="card-text"
+                  data-lang-es="Componente de precios con layout grid responsivo. Presenta diferentes planes de suscripción de forma clara y atractiva."
+                  data-lang-en="Pricing component with responsive grid layout. Presents different subscription plans clearly and attractively."
+                >
+                  Componente de precios con layout grid responsivo. Presenta
+                  diferentes planes de suscripción de forma clara y atractiva.
+                </p>
+                <a
+                  href="https://edr9719.github.io/Frontend-Mentor-Single-Price-Grid-Component/"
+                  target="_blank"
+                  class="modern-btn modern-btn-primary"
+                  data-lang-es="Ver Proyecto"
+                  data-lang-en="View Project"
+                  >Ver Proyecto</a
+                >
+                <a
+                  href="https://github.com/edr9719/Frontend-Mentor-Single-Price-Grid-Component"
+                  target="_blank"
+                  class="modern-btn modern-btn-secondary"
+                  data-lang-es="Ver Repo"
+                  data-lang-en="View Repo"
+                  >Ver Repo</a
+                >
+              </div>
             </div>
           </div>
-        </div>
 
-        <!--Social Links Challenge-->
-        <div class="col-md-5 mb-4">
-          <div class="card h-100">
-            <img
-              src="Img/links.jpg"
-              class="card-img-top project-img"
-              alt="Social Links Challenge"
-            />
-            <div class="card-body">
-              <h5
-                class="card-title"
-                data-lang-es="Perfil de Enlaces Sociales"
-                data-lang-en="Social Links Profile"
-              >
-                Perfil de Enlaces Sociales
-              </h5>
-              <p
-                class="card-text"
-                data-lang-es="Perfil de usuario minimalista con enlaces a redes sociales. Diseño limpio y moderno que destaca los iconos de redes sociales."
-                data-lang-en="Minimalist user profile with social media links. Clean and modern design that highlights social media icons."
-              >
-                Perfil de usuario minimalista con enlaces a redes sociales.
-                Diseño limpio y moderno que destaca los iconos de redes
-                sociales.
-              </p>
-              <a
-                href="https://edr9719.github.io/Social-Links/"
-                target="_blank"
-                class="btn btn-primary"
-                data-lang-es="Ver Proyecto"
-                data-lang-en="View Project"
-                >Ver Proyecto</a
-              >
-              <a
-                href="https://github.com/edr9719/Social-Links"
-                target="_blank"
-                class="btn btn-danger"
-                data-lang-es="Ver Repo"
-                data-lang-en="View Repo"
-                >Ver Repo</a
-              >
+          <!--Social Links Challenge-->
+          <div class="col-md-5 mb-4">
+            <div class="card h-100">
+              <img
+                src="Img/links.jpg"
+                class="card-img-top project-img"
+                alt="Social Links Challenge"
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  data-lang-es="Perfil de Enlaces Sociales"
+                  data-lang-en="Social Links Profile"
+                >
+                  Perfil de Enlaces Sociales
+                </h5>
+                <p
+                  class="card-text"
+                  data-lang-es="Perfil de usuario minimalista con enlaces a redes sociales. Diseño limpio y moderno que destaca los iconos de redes sociales."
+                  data-lang-en="Minimalist user profile with social media links. Clean and modern design that highlights social media icons."
+                >
+                  Perfil de usuario minimalista con enlaces a redes sociales.
+                  Diseño limpio y moderno que destaca los iconos de redes
+                  sociales.
+                </p>
+                <a
+                  href="https://edr9719.github.io/Social-Links/"
+                  target="_blank"
+                  class="modern-btn modern-btn-primary"
+                  data-lang-es="Ver Proyecto"
+                  data-lang-en="View Project"
+                  >Ver Proyecto</a
+                >
+                <a
+                  href="https://github.com/edr9719/Social-Links"
+                  target="_blank"
+                  class="modern-btn modern-btn-secondary"
+                  data-lang-es="Ver Repo"
+                  data-lang-en="View Repo"
+                  >Ver Repo</a
+                >
+              </div>
             </div>
           </div>
         </div>
