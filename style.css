@@ -67,10 +67,7 @@ section {
 
 header {
   position: relative;
-  background: #23272b;
-  background-image: url('Img/background.jpg');
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 50%, #1e293b 100%);
 }
 
 header .container {
