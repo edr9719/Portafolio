@@ -19,26 +19,22 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#">Edgar García</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="#frontend-mentor"
-              data-lang-es="Frontend Mentor"
-              data-lang-en="Frontend Mentor"
-              >Frontend Mentor</a
-            >
-          </li>
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="d-flex align-items-center">
+          <button id="lang-toggle" class="btn btn-outline-light btn-sm me-2">
+            <i class="bi bi-translate"></i> EN
+          </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -71,14 +67,6 @@
                 >Frontend Mentor</a
               >
             </li>
-            <li class="nav-item">
-              <button
-                id="lang-toggle"
-                class="btn btn-outline-light btn-sm ms-2"
-              >
-                <i class="bi bi-translate"></i> EN
-              </button>
-            </li>
           </ul>
         </div>
       </div>
@@ -89,38 +77,38 @@
         <img src="Img/edgar.jpg" alt="Foto de Edgar" class="profile-img mb-3" />
         <h1>Edgar García Aguilar</h1>
         <p class="lead text-center">Full Stack Developer</p>
-        <div class="d-flex justify-content-center gap-3 mb-2">
+        <div class="header-buttons-container">
           <a
             href="https://github.com/edr9719"
             target="_blank"
-            class="btn btn-outline-light btn-sm"
+            class="header-btn"
             aria-label="GitHub"
           >
-            <i class="bi bi-github" style="color: #181717"></i>
+            <i class="bi bi-github"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/edgar-garcia-aguilar/"
             target="_blank"
-            class="btn btn-outline-light btn-sm"
+            class="header-btn"
             aria-label="LinkedIn"
           >
-            <i class="bi bi-linkedin" style="color: #0a66c2"></i>
+            <i class="bi bi-linkedin"></i>
           </a>
           <a
             href="CV.pdf"
             download
-            class="btn btn-outline-light btn-sm"
+            class="header-btn header-btn-text"
             data-lang-es="Descargar CV"
             data-lang-en="Download CV"
             >Descargar CV</a
           >
           <button
             id="copy-email-btn"
-            class="btn btn-outline-light btn-sm"
+            class="header-btn header-btn-email"
             type="button"
-            style="color: #222; background: #fff; border: 1px solid #e0e0e0"
           >
-            ea691974@gmail.com
+            <i class="bi bi-envelope-fill d-md-none"></i>
+            <span class="d-none d-md-inline">ea691974@gmail.com</span>
           </button>
         </div>
       </div>

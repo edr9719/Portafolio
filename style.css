@@ -123,10 +123,83 @@ footer {
   height: 100px;
 }
 
+/* Header Buttons Styling */
+.header-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.header-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem;
+  min-width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.header-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.header-btn-text {
+  padding: 0.65rem 1.25rem;
+  font-size: 0.95rem;
+  min-width: auto;
+}
+
+.header-btn-email {
+  padding: 0.65rem 1.25rem;
+  font-size: 0.95rem;
+  min-width: auto;
+}
+
+/* Navbar improvements */
+.navbar-toggler {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.5rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.2);
+}
+
 @media (max-width: 768px) {
   .profile-img {
     width: 100px;
     height: 100px;
+  }
+
+  .header-buttons-container {
+    gap: 0.5rem;
+  }
+
+  .header-btn {
+    min-width: 44px;
+    height: 44px;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  .header-btn-text {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
   }
 }
 
